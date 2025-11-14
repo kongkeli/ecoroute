@@ -1,0 +1,25 @@
+.bg-hourglass {
+  position: absolute;
+  inset: -40%;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(16, 185, 129, 0.9), transparent 60%),
+    radial-gradient(circle at 50% 100%, rgba(16, 185, 129, 0.9), transparent 60%),
+    radial-gradient(circle at 0% 50%, rgba(5, 46, 32, 0.9), transparent 60%),
+    radial-gradient(circle at 100% 50%, rgba(5, 46, 32, 0.9), transparent 60%),
+    radial-gradient(circle at 50% 50%, rgba(6, 78, 59, 0.9), transparent 65%);
+  filter: blur(40px);
+  opacity: 0.9;
+  animation: hourglassFlow 26s ease-in-out infinite alternate;
+}
+
+@keyframes hourglassFlow {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1) rotate(0deg);
+  }
+  50% {
+    transform: translate3d(30px, -40px, 0) scale(1.07) rotate(180deg);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scale(1) rotate(360deg);
+  }
+}
