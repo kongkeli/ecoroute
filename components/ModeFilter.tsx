@@ -5,6 +5,7 @@ import { useFavoritesStore } from "@/store/useFavoritesStore";
 
 const modes: (TravelMode | "all")[] = [
   "all",
+  "driving",
   "walking",
   "cycling",
   "bus",

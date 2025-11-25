@@ -1,4 +1,4 @@
-export type TravelMode = "walking" | "cycling" | "bus" | "escooter";
+export type TravelMode = "driving" |"walking" | "cycling" | "bus" | "escooter";
 
 export interface EcoRoute {
   id: string;
@@ -10,5 +10,5 @@ export interface EcoRoute {
   durationMin: number;
   co2SavedKg: number;
   description: string;
-  coords?: [number, number]; // latitude, longitude
+  coords?: [number, number]; 
 }
