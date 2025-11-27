@@ -1,13 +1,14 @@
-# EcoRoute 
+# EcoRoute
 
-Eco-friendly route planner που σου προτείνει πιο πράσινες διαδρομές για καθημερινά ταξίδια.
+EcoRoute is an eco-friendly route planner that suggests greener travel options for everyday trips.
 
 ## Features
-- Αναζήτηση διαδρομής (Α -> Β)
-- Εκτίμηση CO₂ emissions για διαφορετικούς τρόπους μετακίνησης
-- Προτάσεις "eco" εναλλακτικών (π.χ. ποδήλατο, λεωφορείο,Εscouter)
+- Route search (point A → point B)
+- CO₂ emissions estimation for multiple transportation modes
+- Eco-friendly travel suggestions (bike, bus, e-scooter, etc.)
 - Interactive map preview
-- Responsive σχεδίαση για κινητό
+- Fully responsive design for mobile
+
 
 ## Tech Stack
 - Frontend: Next.js, React, TypeScript, TailwindCSS
